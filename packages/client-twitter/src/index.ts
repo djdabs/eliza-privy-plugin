@@ -5,6 +5,13 @@ import { IAgentRuntime, Client, elizaLogger } from "@ai16z/eliza";
 import { validateTwitterConfig } from "./environment.ts";
 import { ClientBase } from "./base.ts";
 
+export class SimpleTwitterManager {
+    client: ClientBase;
+    constructor(runtime: IAgentRuntime) {
+        this.client = new ClientBase(runtime);
+    }
+}
+
 class TwitterManager {
     client: ClientBase;
     post: TwitterPostClient;

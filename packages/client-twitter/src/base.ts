@@ -29,6 +29,7 @@ type TwitterProfile = {
     screenName: string;
     bio: string;
     nicknames: string[];
+    avatar?: string;
 };
 
 class RequestQueue {
@@ -666,6 +667,7 @@ export class ClientBase extends EventEmitter {
                 // console.log({ profile });
                 return {
                     id: profile.userId,
+                    avatar: profile.avatar,
                     username,
                     screenName: profile.name || this.runtime.character.name,
                     bio:
