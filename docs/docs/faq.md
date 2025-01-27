@@ -115,7 +115,7 @@ There are several ways to contribute to the ai16z project:
 
 - **Participate in community discussions**: Share your memecoin insights, propose new ideas, and engage with other community members.
 - **Contribute to the development of the ai16z platform**: https://github.com/orgs/ai16z/projects/1/views/3
-- **Help build the ai16z ecosystem**: Create applicatoins / tools, resources, and memes. Give feedback, and spread the word
+- **Help build the ai16z ecosystem**: Create applications / tools, resources, and memes. Give feedback, and spread the word
 
 **Other questions:**
 
