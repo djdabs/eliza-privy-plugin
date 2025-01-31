@@ -13,7 +13,7 @@ cd "$(dirname "$0")"/..
 
 # clean cache
 echo -e "\033[1mCleaning cache...\033[0m"
-if ! pnpm clean; then
+if ! pnpm store prune; then
     echo -e "\033[1;31mFailed to clean cache\033[0m"
     exit 1
 fi
